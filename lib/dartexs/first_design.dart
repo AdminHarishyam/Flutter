@@ -21,7 +21,12 @@ class MyApp extends StatelessWidget {
           ),
           body: Column(
             children: [
-
+              Image.asset(
+                'images/images.jpg',
+                width: 600,
+                height: 240,
+                fit: BoxFit.cover,
+              ),
               _titleSection(),
               buttonSection(),
               textSection()
