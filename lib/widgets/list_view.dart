@@ -13,7 +13,10 @@ class ListApp extends StatelessWidget {
         children: [
           ListTile(leading: Icon(Icons.map),title: Text('Map'),),
           ListTile(leading: Icon(Icons.access_alarm),title: Text('Alarm'),),
-
+          // ListApp().buttonSection(
+          //   FloatingActionButton(
+          //       onPressed: Text('Welcome'),),
+          // )
         ],
       ),
     );
